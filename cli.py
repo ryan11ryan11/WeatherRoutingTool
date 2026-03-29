@@ -1,11 +1,12 @@
 import argparse
 import warnings
+from dotenv import load_dotenv
 
 from WeatherRoutingTool.config import Config, set_up_logging
 from WeatherRoutingTool.execute_routing import execute_routing
 from WeatherRoutingTool.ship.ship_config import ShipConfig
 
-
+load_dotenv()
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Weather Routing Tool')
     parser.add_argument('-f', '--file', help="Config file name (absolute path)", required=True, type=str)
