@@ -1,0 +1,48 @@
+{
+    "DEFAULT_ROUTE": [
+        38.351208,
+        -9.000538,
+        36.965015,
+        -6.827687
+    ],
+    "DEPARTURE_TIME": "2023-11-11T11:11Z",
+    "ARRIVAL_TIME": "2023-11-16T11:11Z",
+    "DEFAULT_MAP": [
+        35,
+        -12,
+        40,
+        -5
+    ],
+    "BOAT_DRAUGHT_AFT": 6.8,
+    "BOAT_DRAUGHT_FORE": 5.9,
+    "CONSTRAINTS_LIST": [
+        "land_crossing_global_land_mask"
+    ],
+    "TIME_FORECAST": 90,
+    "ROUTING_STEPS": 60,
+    "DELTA_TIME_FORECAST": 3,
+    "DELTA_FUEL": 3000,
+    "DEPTH_DATA": "c:/GOC/52North/WeatherRoutingTool/depth_data.nc",
+    "WEATHER_DATA": "c:/GOC/52North/WeatherRoutingTool/weather_data.nc",
+    "ROUTE_PATH": "c:/GOC/52North/WeatherRoutingTool",
+    "ROUTER_HDGS_SEGMENTS": 30,
+    "ROUTER_HDGS_INCREMENTS_DEG": 6,
+    "ISOCHRONE_PRUNE_SECTOR_DEG_HALF": 91,
+    "ISOCHRONE_PRUNE_SEGMENTS": 20,
+    "ISOCHRONE_MINIMISATION_CRITERION": "squareddist_over_disttodest",
+    "ISOCHRONE_NUMBER_OF_ROUTES": 1,
+    "ALGORITHM_TYPE": "genetic",
+    "GENETIC_NUMBER_GENERATIONS": 20,
+    "GENETIC_NUMBER_OFFSPRINGS": 2,
+    "GENETIC_POPULATION_SIZE": 20,
+    "GENETIC_POPULATION_TYPE": "grid_based",
+    "BOAT_TYPE": "direct_power_method",
+    "BOAT_BREADTH": 32,
+    "BOAT_FUEL_RATE": 167,
+    "BOAT_HBR": 30,
+    "BOAT_LENGTH": 180,
+    "BOAT_SMCR_POWER": 6502,
+    "BOAT_SMCR_SPEED": 7.0,
+    "BOAT_SPEED": 6,
+    "COURSES_FILE": "c:/GOC/52North/WeatherRoutingTool/"
+}
